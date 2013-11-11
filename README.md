@@ -38,7 +38,7 @@ Right now there is a separate app for each supported hardware device. Multiple a
 
 ### What's next?
 
-- Optionally treat pushbutton controls as toggles
+- ~Optionally treat pushbutton controls as toggles~
 - Give pushbutton output an optional ADSR envelope
 - Use device controls to switch patches
 - Support different joystick models
