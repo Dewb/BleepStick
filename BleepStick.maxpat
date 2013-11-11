@@ -430,7 +430,7 @@
 					}
 ,
 					"text" : "autopattr @autoname 0",
-					"varname" : "u551009147"
+					"varname" : "u869010005"
 				}
 
 			}
@@ -1622,7 +1622,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 134.0, 616.0, 53.0, 20.0 ],
+					"patching_rect" : [ 134.0, 631.0, 53.0, 20.0 ],
 					"text" : "r oscout"
 				}
 
@@ -2255,8 +2255,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "arenaosc.maxpat",
-				"bootpath" : "/Users/dewb/dev/BleepStick",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/dewb/dev/BleepStick/bpatchers",
+				"patcherrelativepath" : "../BleepStick/bpatchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
