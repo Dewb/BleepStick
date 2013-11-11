@@ -31,6 +31,22 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1022.0, 16.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1014.0, 8.0, 40.0, 20.0 ],
+					"text" : "Invert"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-5",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -430,7 +446,7 @@
 					}
 ,
 					"text" : "autopattr @autoname 0",
-					"varname" : "u661002648"
+					"varname" : "u609009023"
 				}
 
 			}
@@ -712,7 +728,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 895.0, 8.0, 117.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 895.0, 8.0, 117.0, 20.0 ],
+					"presentation_rect" : [ 900.0, 8.0, 106.0, 20.0 ],
 					"text" : "Output min / max"
 				}
 
@@ -1054,7 +1070,7 @@
 									"hidden" : 0,
 									"source" : [ "obj-2", 0 ],
 									"watchpoint_flags" : 1,
-									"watchpoint_id" : 3
+									"watchpoint_id" : 1
 								}
 
 							}
@@ -1065,7 +1081,7 @@
 									"hidden" : 0,
 									"source" : [ "obj-21", 0 ],
 									"watchpoint_flags" : 1,
-									"watchpoint_id" : 2
+									"watchpoint_id" : 6
 								}
 
 							}
@@ -1085,7 +1101,7 @@
 									"hidden" : 0,
 									"source" : [ "obj-5", 0 ],
 									"watchpoint_flags" : 1,
-									"watchpoint_id" : 4
+									"watchpoint_id" : 7
 								}
 
 							}
@@ -1105,7 +1121,7 @@
 									"hidden" : 0,
 									"source" : [ "obj-8", 0 ],
 									"watchpoint_flags" : 1,
-									"watchpoint_id" : 5
+									"watchpoint_id" : 8
 								}
 
 							}

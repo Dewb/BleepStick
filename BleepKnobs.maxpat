@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 78.0, 75.0, 1303.0, 739.0 ],
+		"rect" : [ 198.0, 147.0, 1303.0, 739.0 ],
 		"bgcolor" : [ 0.891872, 0.708398, 0.999442, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -28,6 +28,22 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1033.0, 26.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1014.0, 8.0, 48.0, 20.0 ],
+					"text" : "Invert"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"args" : [ 3 ],
 					"id" : "obj-35",
@@ -311,12 +327,13 @@
 					}
 ,
 					"text" : "autopattr @autoname 0",
-					"varname" : "u924010515"
+					"varname" : "u089011768"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "BleepKnobsSettings.json",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-71",
@@ -592,7 +609,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 895.0, 8.0, 117.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 895.0, 8.0, 117.0, 20.0 ],
+					"presentation_rect" : [ 900.0, 8.0, 102.0, 20.0 ],
 					"text" : "Output min / max"
 				}
 
@@ -1102,8 +1119,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "arenaosc.maxpat",
-				"bootpath" : "/Users/dewb/dev/BleepStick/bpatchers",
-				"patcherrelativepath" : "../BleepStick/bpatchers",
+				"bootpath" : "/Users/dewb/dev/BleepStick",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1115,16 +1132,23 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "BleepKnobsSettings.json",
+				"bootpath" : "/Users/dewb/dev/BleepStick",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "serialosc.maxpat",
-				"bootpath" : "/Users/dewb/dev/BleepStick/bpatchers",
-				"patcherrelativepath" : "../BleepStick/bpatchers",
+				"bootpath" : "/Users/dewb/dev/BleepStick",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "arc_basic_knob.maxpat",
-				"bootpath" : "/Users/dewb/dev/BleepStick/bpatchers",
-				"patcherrelativepath" : "../BleepStick/bpatchers",
+				"bootpath" : "/Users/dewb/dev/BleepStick",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
