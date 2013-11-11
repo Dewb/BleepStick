@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 107.0, 68.0, 1141.0, 484.0 ],
+		"rect" : [ 107.0, 68.0, 1213.0, 484.0 ],
 		"bgcolor" : [ 0.891872, 0.708398, 0.999442, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -704,7 +704,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 118.5, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 118.5, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 118.5, 941.0, 29.0 ],
 					"varname" : "knob_3"
 				}
 
@@ -719,7 +719,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 90.5, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 90.5, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 90.5, 941.0, 29.0 ],
 					"varname" : "knob_2"
 				}
 
@@ -734,7 +734,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 62.5, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 62.5, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 62.5, 941.0, 29.0 ],
 					"varname" : "knob_1"
 				}
 
@@ -749,7 +749,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 34.5, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 34.5, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 34.5, 941.0, 29.0 ],
 					"varname" : "knob_0"
 				}
 

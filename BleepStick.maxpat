@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 50.0, 59.0, 1145.0, 605.0 ],
+		"rect" : [ 50.0, 59.0, 1173.0, 607.0 ],
 		"bgcolor" : [ 0.891872, 0.708398, 0.999442, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -28,6 +28,22 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-20",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1070.0, 22.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1060.0, 8.0, 44.0, 20.0 ],
+					"text" : "Toggle"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -1165,7 +1181,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 567.0, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 567.0, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 567.0, 939.0, 29.0 ],
 					"varname" : "joystick_button_base6"
 				}
 
@@ -1180,7 +1196,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 539.0, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 539.0, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 539.0, 939.0, 29.0 ],
 					"varname" : "joystick_button_base5"
 				}
 
@@ -1195,7 +1211,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 511.0, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 511.0, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 511.0, 939.0, 29.0 ],
 					"varname" : "joystick_button_base4"
 				}
 
@@ -1210,7 +1226,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 483.0, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 483.0, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 483.0, 939.0, 29.0 ],
 					"varname" : "joystick_button_base3"
 				}
 
@@ -1225,7 +1241,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 455.0, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 455.0, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 455.0, 939.0, 29.0 ],
 					"varname" : "joystick_button_base2"
 				}
 
@@ -1240,7 +1256,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 427.0, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 427.0, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 427.0, 939.0, 29.0 ],
 					"varname" : "joystick_button_base1"
 				}
 
@@ -1255,7 +1271,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 398.5, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 398.5, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 398.5, 939.0, 29.0 ],
 					"varname" : "joystick_hat_left"
 				}
 
@@ -1270,7 +1286,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 370.5, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 370.5, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 370.5, 939.0, 29.0 ],
 					"varname" : "joystick_hat_down"
 				}
 
@@ -1285,7 +1301,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 342.5, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 342.5, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 342.5, 939.0, 29.0 ],
 					"varname" : "joystick_hat_right"
 				}
 
@@ -1300,7 +1316,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 314.5, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 314.5, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 314.5, 939.0, 29.0 ],
 					"varname" : "joystick_hat_up"
 				}
 
@@ -1475,7 +1491,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 287.0, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 287.0, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 287.0, 939.0, 29.0 ],
 					"varname" : "joystick_button_UR"
 				}
 
@@ -1490,7 +1506,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 259.0, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 259.0, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 259.0, 939.0, 29.0 ],
 					"varname" : "joystick_button_UL"
 				}
 
@@ -1505,7 +1521,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 231.0, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 231.0, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 231.0, 939.0, 29.0 ],
 					"varname" : "joystick_button_LR"
 				}
 
@@ -1520,7 +1536,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 203.0, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 203.0, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 203.0, 939.0, 29.0 ],
 					"varname" : "joystick_button_LL"
 				}
 
@@ -1535,7 +1551,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 175.0, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 175.0, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 175.0, 939.0, 29.0 ],
 					"varname" : "joystick_button_side"
 				}
 
@@ -1550,7 +1566,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 147.0, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 147.0, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 147.0, 939.0, 29.0 ],
 					"varname" : "joystick_button_trigger"
 				}
 
@@ -1565,7 +1581,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 118.5, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 118.5, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 118.5, 939.0, 29.0 ],
 					"varname" : "joystick_throttle"
 				}
 
@@ -1580,7 +1596,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 90.5, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 90.5, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 90.5, 939.0, 29.0 ],
 					"varname" : "joystick_twist"
 				}
 
@@ -1595,7 +1611,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 62.5, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 62.5, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 62.5, 939.0, 29.0 ],
 					"varname" : "joystick_y"
 				}
 
@@ -1610,7 +1626,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 34.5, 904.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.0, 34.5, 904.0, 29.0 ],
+					"presentation_rect" : [ 225.0, 34.5, 939.0, 29.0 ],
 					"varname" : "joystick_x"
 				}
 
