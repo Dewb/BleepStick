@@ -2,7 +2,6 @@ BleepStick
 ==========
 
 Bleepstick is a family of utility apps for using specific high-resolution hardware controllers with Resolume via OSC.
-[Resolume OSC spec][0]
 
 Requires the Max 6.1 runtime:
 http://cycling74.com/downloads/runtime/
@@ -36,6 +35,12 @@ Right now there is a separate app for each supported hardware device. Multiple a
 - BleepKnobs: the monome arc4, a set of four high-resolution encoders (http://monome.org/devices/)
 - BleepFeet (coming soon)
 - BleepSequence (coming soon)
+
+### How do I use this?
+
+Connect your controller, then open BleepStick.maxpat or BleepKnobs.maxpat. Skim the [Resolume OSC spec][0] to get an
+idea of what the various messages mean. Shift-click a dot in the preset grid to save a preset; click the dot to recall
+it.
 
 ### What's next?
 
