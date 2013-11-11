@@ -2,6 +2,7 @@ BleepStick
 ==========
 
 Bleepstick is a family of utility apps for using specific high-resolution hardware controllers with Resolume via OSC.
+[Resolume OSC spec][http://resolume.com/manual/en/r4/controlling#open_sound_control_osc]
 
 Requires the Max 6.1 runtime:
 http://cycling74.com/downloads/runtime/
@@ -10,11 +11,11 @@ http://cycling74.com/downloads/runtime/
 
 Resolume has full-featured MIDI/OSC mapping out of the box. But it's not perfect. Consider:
 
-- Live remapping is difficult. You must stop using your controller before mapping a new control, otherwise the 
-buttons you are hitting will override the mapping you intend to add.
+- Live remapping is difficult. You must stop pushing buttons and moving sticks on your controll before you can map
+a new control. 
 - Mappings are tied to content. If you create a "control scheme" with one piece of content, it's a laborious process
 to apply that scheme to something new (whether that means a totally new composition or just a different clip 
-in the same composition.) You must root around the app to find everything you've mapped and reamp
+in the same composition.) You must root around to find everything you've mapped and remap
 each control one by one.
 - Mappings are tied to a specific set of hardware. If you have one way of controlling things when you have _all_ your toys,
 but need a completely different scheme when you are on the road with only your favorite lightweight controller, you 
@@ -42,10 +43,11 @@ Right now there is a separate app for each supported hardware device. Multiple a
 - Give pushbutton output an optional ADSR envelope
 - Use device controls to switch patches
 - Support different joystick models
-- Support more than one joysticks at time
+- Support more than one joystick at time
+- Support Korg Nanokontrol
 - BleepFeet: Support the [Line6 FBV Express mkII][4] foot controller
 - BleepSequence: Use incoming MIDI notes from a sequencer as Resolume controllers
-- Unify BleepStick/Knobs/Feet/Sequence into one cohesive and elegant application
+- Unify BleepStick/Knobs/Feet/Sequence into one cohesive and elegant application, store hardware config in patches
 
 [1]: http://www.osculator.net/ 
 [2]: http://www.uio.no/english/research/groups/fourms/software/MultiControl/
