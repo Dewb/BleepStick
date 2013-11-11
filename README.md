@@ -2,7 +2,7 @@ BleepStick
 ==========
 
 Bleepstick is a family of utility apps for using specific high-resolution hardware controllers with Resolume via OSC.
-[Resolume OSC spec][http://resolume.com/manual/en/r4/controlling#open_sound_control_osc]
+[Resolume OSC spec][0]
 
 Requires the Max 6.1 runtime:
 http://cycling74.com/downloads/runtime/
@@ -49,6 +49,7 @@ Right now there is a separate app for each supported hardware device. Multiple a
 - BleepSequence: Use incoming MIDI notes from a sequencer as Resolume controllers
 - Unify BleepStick/Knobs/Feet/Sequence into one cohesive and elegant application, store hardware config in patches
 
+[0]: http://resolume.com/manual/en/r4/controlling#open_sound_control_osc
 [1]: http://www.osculator.net/ 
 [2]: http://www.uio.no/english/research/groups/fourms/software/MultiControl/
 [3]: http://www.amazon.com/Logitech-Extreme-Joystick-Silver-Black/dp/B00009OY9U
