@@ -10,15 +10,15 @@ http://cycling74.com/downloads/runtime/
 
 Resolume has full-featured MIDI/OSC mapping out of the box. But it's not perfect. Consider:
 
-- Live remapping is difficult. You must stop using your controller to map a new control, otherwise the buttons you are hitting will override the mapping 
-you intend to add.
-- Mappings are tied to content. If you create a "control scheme" with one piece of content, and you want to apply
-that scheme to something new (whether that means a totally new composition or just a different clip in the same 
-composition), it's a laborious process. You must root around the app to find everything you've mapped and reamp
+- Live remapping is difficult. You must stop using your controller before mapping a new control, otherwise the 
+buttons you are hitting will override the mapping you intend to add.
+- Mappings are tied to content. If you create a "control scheme" with one piece of content, it's a laborious process
+to apply that scheme to something new (whether that means a totally new composition or just a different clip 
+in the same composition.) You must root around the app to find everything you've mapped and reamp
 each control one by one.
-- Mapping are tied to a specific set of hardware. If you have one way of controlling things when you have _all_ your toys,
+- Mappings are tied to a specific set of hardware. If you have one way of controlling things when you have _all_ your toys,
 but need a completely different scheme when you are on the road with only your favorite lightweight controller, you 
-have to remap everything to switch, or maintain two separate compositions.
+have to remap everything when you switch, or else maintain two separate compositions.
 - MIDI devices can be mapped without additional software, but OSC-native devices and HID devices like joysticks need 
 help. OSC input must be re-addressed into Resolume's OSC heirearchy with something like [OSCulator][1]. And HID device 
 input must be converted to MIDI or OSC with something like [MultiControl][2].
@@ -38,10 +38,11 @@ Right now there is a separate app for each supported hardware device. Multiple a
 
 ### What's next?
 
-- Use pushbutton controls as toggles
+- Optionally treat pushbutton controls as toggles
 - Give pushbutton output an optional ADSR envelope
 - Use device controls to switch patches
-- Support multiple joysticks in BleepStick
+- Support different joystick models
+- Support more than one joysticks at time
 - BleepFeet: Support the [Line6 FBV Express mkII][4] foot controller
 - BleepSequence: Use incoming MIDI notes from a sequencer as Resolume controllers
 - Unify BleepStick/Knobs/Feet/Sequence into one cohesive and elegant application
