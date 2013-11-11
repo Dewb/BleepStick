@@ -430,7 +430,7 @@
 					}
 ,
 					"text" : "autopattr @autoname 0",
-					"varname" : "u869010005"
+					"varname" : "u661002648"
 				}
 
 			}
@@ -1301,7 +1301,7 @@
 					"patching_rect" : [ 169.0, 571.5, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 169.0, 571.5, 50.0, 20.0 ],
-					"text" : "B6"
+					"text" : "B12"
 				}
 
 			}
@@ -1317,7 +1317,7 @@
 					"patching_rect" : [ 169.0, 543.5, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 169.0, 543.5, 50.0, 20.0 ],
-					"text" : "B5"
+					"text" : "B11"
 				}
 
 			}
@@ -1333,7 +1333,7 @@
 					"patching_rect" : [ 169.0, 515.5, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 169.0, 515.5, 50.0, 20.0 ],
-					"text" : "B4"
+					"text" : "B10"
 				}
 
 			}
@@ -1349,7 +1349,7 @@
 					"patching_rect" : [ 169.0, 487.5, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 169.0, 487.5, 50.0, 20.0 ],
-					"text" : "B3"
+					"text" : "B9"
 				}
 
 			}
@@ -1365,7 +1365,7 @@
 					"patching_rect" : [ 169.0, 459.5, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 169.0, 459.5, 50.0, 20.0 ],
-					"text" : "B2"
+					"text" : "B8"
 				}
 
 			}
@@ -1381,7 +1381,7 @@
 					"patching_rect" : [ 169.0, 431.5, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 169.0, 431.5, 50.0, 20.0 ],
-					"text" : "B1"
+					"text" : "B7"
 				}
 
 			}
@@ -1652,7 +1652,7 @@
 					"patching_rect" : [ 169.0, 291.5, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 169.0, 291.5, 50.0, 20.0 ],
-					"text" : "UR"
+					"text" : "UR 6"
 				}
 
 			}
@@ -1668,7 +1668,7 @@
 					"patching_rect" : [ 169.0, 263.5, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 169.0, 263.5, 50.0, 20.0 ],
-					"text" : "UL"
+					"text" : "UL 5"
 				}
 
 			}
@@ -1684,7 +1684,7 @@
 					"patching_rect" : [ 169.0, 235.5, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 169.0, 235.5, 50.0, 20.0 ],
-					"text" : "LR"
+					"text" : "LR 4"
 				}
 
 			}
@@ -1700,7 +1700,7 @@
 					"patching_rect" : [ 169.0, 207.5, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 169.0, 207.5, 50.0, 20.0 ],
-					"text" : "LL"
+					"text" : "LL 3"
 				}
 
 			}
@@ -2255,8 +2255,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "arenaosc.maxpat",
-				"bootpath" : "/Users/dewb/dev/BleepStick/bpatchers",
-				"patcherrelativepath" : "../BleepStick/bpatchers",
+				"bootpath" : "/Users/dewb/dev/BleepStick",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
