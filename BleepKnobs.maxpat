@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 198.0, 147.0, 1303.0, 739.0 ],
+		"rect" : [ 107.0, 68.0, 1141.0, 484.0 ],
 		"bgcolor" : [ 0.891872, 0.708398, 0.999442, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -219,7 +219,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 895.0, 603.0, 45.25, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 67.75, 530.0, 45.25, 20.0 ],
+					"presentation_rect" : [ 67.75, 411.5, 45.25, 20.0 ],
 					"text" : "Save"
 				}
 
@@ -236,7 +236,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 842.75, 603.0, 45.25, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 530.0, 45.25, 20.0 ],
+					"presentation_rect" : [ 14.0, 411.5, 45.25, 20.0 ],
 					"text" : "Load"
 				}
 
@@ -293,7 +293,7 @@
 					"patching_rect" : [ 1044.0, 677.0, 100.0, 40.0 ],
 					"pattrstorage" : "BleepKnobsSettings",
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 483.0, 100.0, 40.0 ]
+					"presentation_rect" : [ 14.0, 364.5, 100.0, 40.0 ]
 				}
 
 			}
@@ -364,7 +364,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 580.5, 715.0, 128.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 575.5, 103.0, 16.0 ],
+					"presentation_rect" : [ 10.0, 457.0, 103.0, 16.0 ],
 					"text" : "by @dewb"
 				}
 
