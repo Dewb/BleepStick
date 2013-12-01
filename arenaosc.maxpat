@@ -433,22 +433,22 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 151.0, 467.0, 137.0, 20.0 ],
 					"restore" : 					{
-						"address_part_1" : [ 1 ],
+						"address_part_1" : [ 0 ],
 						"address_part_1_value" : [ 1 ],
 						"address_part_2" : [ 0 ],
 						"address_part_2_value" : [ 1 ],
 						"address_part_3" : [ 0 ],
 						"invert" : [ 0 ],
-						"output_range_max" : [ 4.0 ],
-						"output_range_min" : [ 0.3 ],
-						"target" : [ 0 ],
+						"output_range_max" : [ 1.0 ],
+						"output_range_min" : [ 0.0 ],
+						"target" : [ 1 ],
 						"target_clip" : [ 1 ],
 						"target_layer" : [ 1 ],
 						"toggle" : [ 0 ]
 					}
 ,
 					"text" : "autopattr @autoname 0",
-					"varname" : "u302000323"
+					"varname" : "u541005419"
 				}
 
 			}
@@ -1158,6 +1158,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.7, 0.7, 0.7, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-75",
@@ -1550,7 +1551,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.7, 0.7, 0.7, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-7",
@@ -1583,7 +1583,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.7, 0.7, 0.7, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-5",
@@ -3138,7 +3137,8 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ]
 	}
 
 }

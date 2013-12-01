@@ -151,7 +151,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 8.75, 10.0, 55.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 59.5, 2.0, 58.0, 20.0 ]
+					"presentation_rect" : [ 59.5, 2.0, 58.0, 20.0 ],
+					"varname" : "type"
 				}
 
 			}
@@ -195,11 +196,12 @@
 					"patching_rect" : [ 183.0, 309.0, 137.0, 20.0 ],
 					"restore" : 					{
 						"midi_channel" : [ 0 ],
-						"midi_note" : [ 127 ]
+						"midi_note" : [ 127 ],
+						"type" : [ 0 ]
 					}
 ,
 					"text" : "autopattr @autoname 0",
-					"varname" : "u049000444"
+					"varname" : "u295004020"
 				}
 
 			}

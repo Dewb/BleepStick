@@ -28,6 +28,27 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 143.0, 157.0, 137.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 143.0, 157.0, 137.0, 20.0 ],
+					"restore" : 					{
+						"behavior_mode" : [ 0 ]
+					}
+,
+					"text" : "autopattr @autoname 0",
+					"varname" : "u848003452"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
 					"cantchange" : 1,
@@ -42,7 +63,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 390.0, 331.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 114.0, 9.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 109.0, 3.0, 50.0, 20.0 ],
 					"textcolor" : [ 0.330544, 0.330534, 0.330539, 1.0 ],
 					"triangle" : 0
 				}
@@ -57,8 +78,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 144.0, 166.0, 87.0, 18.0 ],
-					"text" : "presentation 1"
+					"patching_rect" : [ 168.0, 141.0, 33.0, 18.0 ],
+					"text" : "hide"
 				}
 
 			}
@@ -71,8 +92,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 115.0, 141.0, 87.0, 18.0 ],
-					"text" : "presentation 0"
+					"patching_rect" : [ 115.0, 141.0, 39.0, 18.0 ],
+					"text" : "show"
 				}
 
 			}
@@ -87,19 +108,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 115.0, 103.0, 48.0, 20.0 ],
 					"text" : "route 3"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.858824, 0.631373, 1.0, 0.94 ],
-					"id" : "obj-28",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 111.0, 5.0, 291.0, 77.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 178.0, 7.0, 291.0, 77.0 ]
 				}
 
 			}
@@ -189,12 +197,12 @@
 					"id" : "obj-6",
 					"maxclass" : "bpatcher",
 					"name" : "fancy_curve.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 93.0, 308.0, 291.0, 66.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 178.0, 9.0, 291.0, 66.0 ],
+					"presentation_rect" : [ 167.0, 1.0, 291.0, 66.0 ],
 					"varname" : "fancy_curve"
 				}
 
@@ -224,7 +232,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 7.0, 44.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 7.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 1.0, 1.0, 100.0, 20.0 ],
 					"varname" : "behavior_mode"
 				}
 
@@ -340,7 +348,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
+					"destination" : [ "obj-6", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-32", 0 ]
@@ -349,7 +357,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
+					"destination" : [ "obj-6", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-34", 0 ]
@@ -386,14 +394,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "fancy_curve.maxpat",
-				"bootpath" : "/Users/dewb/dev/bleepstick",
+				"bootpath" : "/Users/dewb/dev/BleepStick",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "breakpoint_sort.js",
-				"bootpath" : "/Users/dewb/dev/bleepstick",
+				"bootpath" : "/Users/dewb/dev/BleepStick",
 				"patcherrelativepath" : "",
 				"type" : "TEXT",
 				"implicit" : 1
