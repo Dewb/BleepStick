@@ -33,10 +33,10 @@
 					"name" : "behavior.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "float" ],
 					"patching_rect" : [ 794.0, 3.0, 468.0, 66.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 794.0, 3.0, 468.0, 66.5 ],
+					"presentation_rect" : [ 624.0, 0.0, 468.0, 66.5 ],
 					"varname" : "behavior"
 				}
 
@@ -51,7 +51,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 0.5, 1.0, 174.0, 23.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.5, 1.0, 174.0, 23.5 ],
+					"presentation_rect" : [ -0.5, -1.0, 253.0, 23.5 ],
 					"varname" : "event_midi"
 				}
 
@@ -61,12 +61,12 @@
 					"args" : [ 0, 1.0 ],
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
-					"name" : "arenaosc.maxpat",
+					"name" : "arena_osc_output.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.5, 27.0, 958.5, 33.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.5, 27.0, 958.5, 33.5 ],
+					"presentation_rect" : [ 0.5, 22.0, 623.5, 23.5 ],
 					"varname" : "osc_out"
 				}
 
@@ -92,7 +92,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "arenaosc.maxpat",
+				"name" : "arena_osc_output.maxpat",
 				"bootpath" : "/Users/dewb/dev/BleepStick",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
