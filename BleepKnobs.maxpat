@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 7,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 107.0, 68.0, 1213.0, 484.0 ],
@@ -160,7 +161,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 353.25, 164.0, 97.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 564.25, 185.5, 98.0, 18.0 ],
+					"presentation_rect" : [ 538.25, 447.5, 98.0, 18.0 ],
 					"text" : "/sys/prefix bleep"
 				}
 
@@ -171,11 +172,12 @@
 					"maxclass" : "bpatcher",
 					"name" : "serialosc.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "bang", "bang" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "", "int", "", "" ],
 					"patching_rect" : [ 225.0, 191.0, 385.5, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.0, 180.0, 385.5, 29.0 ]
+					"presentation_rect" : [ 128.0, 378.0, 400.5, 95.0 ],
+					"varname" : "serialosc"
 				}
 
 			}
@@ -327,7 +329,7 @@
 					}
 ,
 					"text" : "autopattr @autoname 0",
-					"varname" : "u089011768"
+					"varname" : "u723000265"
 				}
 
 			}
@@ -1119,46 +1121,31 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "arenaosc.maxpat",
-				"bootpath" : "/Users/dewb/dev/BleepStick",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/dewb/ah/BleepStick",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bleep.png",
-				"bootpath" : "/Users/dewb/Downloads",
-				"patcherrelativepath" : "../../Downloads",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "BleepKnobsSettings.json",
-				"bootpath" : "/Users/dewb/dev/BleepStick",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/dewb/ah/BleepStick",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "serialosc.maxpat",
-				"bootpath" : "/Users/dewb/dev/BleepStick",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/dewb/ah/BleepStick",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "arc_basic_knob.maxpat",
-				"bootpath" : "/Users/dewb/dev/BleepStick",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/dewb/ah/BleepStick",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "zeroconf.browser.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zeroconf.resolve.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
